@@ -11,14 +11,19 @@
     - `coupledOscillators`: 連成振動子
 - `Random`: 乱数
     - [https://github.com/MAndSTadaki/Random](https://github.com/MAndSTadaki/Random)
-    - `randomNumbers`: 一様乱数、変換法、棄却法
+    - `randomNumbers`: 変換法、棄却法
     - `randomNumberExamples`: 乱数の例
     - `histogram`: ヒストグラム
 - `RandomWalk`: 酔歩
     - [https://github.com/MAndSTadaki/RandomWalk](https://github.com/MAndSTadaki/RandomWalk)
     - `model`: 簡単な酔歩のモデル
-- `CA`: セル・オートマトン
+    - `modelExt`: 連続的酔歩への拡張
+- `CA`: セルオートマトン
     - [https://github.com/MAndSTadaki/CA](https://github.com/MAndSTadaki/CA)
     - `ca`: 状態が$[0,1]$で隣接セルと相互作用する基本的モデル。
     - `rule184`: 最も簡単な交通流モデルであるルール184について、流量や速度を計算する
+    - `gui`: セルオートマトンのシミュレーションを行うGUI
+- `GameOfLife`: game of life
+    - [https://github.com/MAndSTadaki/GameOfLife](https://github.com/MAndSTadaki/GameOfLife)
+    - `model`
     - `gui`
